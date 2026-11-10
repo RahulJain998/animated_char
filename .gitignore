@@ -1,0 +1,7 @@
+# 1. .gitignore banao
+echo "node_modules/
+.next/
+.env" > .gitignore
+
+# 2. node_modules ko git se hatao (files disk par rahengi)
+git rm -r --cached node_modules
